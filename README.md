@@ -89,7 +89,7 @@ Enables multiple environments (like dev and prod) with separate variable definit
 **To execute dev environment:**
 
 ```bash
-terraform apply -var-file="../<environment>/terraform.tfvars" -auto-approve
+terraform apply -var-file="../env/<environment>/terraform.tfvars" -auto-approve
 ```
 
 
